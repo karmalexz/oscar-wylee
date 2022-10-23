@@ -12,7 +12,7 @@ const Product = () => {
           Zoom <img className="zoom-icon" src={Zoom} alt="zoom icon" />
         </p>
         <div className="carousel">
-          <input type="radio" name="pick" />
+          <input type="radio" name="pick" checked="true" />
           <input type="radio" name="pick" />
           <input type="radio" name="pick" />
           <input type="radio" name="pick" />

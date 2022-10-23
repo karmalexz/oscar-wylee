@@ -1,0 +1,82 @@
+.text-block {
+  position: relative;
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 15px;
+  margin: 5em 5% 10px;
+}
+.text-block .heading {
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 0.5rem;
+  font-size: 24px;
+  line-height: 1;
+  background-color: white;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.description-left {
+  display: flex;
+  width: 50%;
+  font-size: 20px;
+  padding: 15% 0;
+  margin-right: 3em;
+}
+.description-right {
+  display: flex;
+  /* width: 50%; */
+  /* justify-content: center; */
+  flex-direction: column;
+  width: min-content;
+  padding-bottom: -px;
+}
+
+.table {
+  margin: 5px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table .table-title {
+  border: 1px solid black;
+  padding: 1em 5em;
+  font-size: large;
+  font-weight: 800;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  justify-content: center;
+  margin: auto 0;
+}
+.table .table-title span {
+  display: block;
+  font-weight: 400;
+  margin: 1em 0 0.2em;
+  font-size: 17px;
+  text-align: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.box-text {
+  border: 2px solid rgb(192, 191, 191);
+}
+.box-text .box-text-2 {
+  font-weight: 600;
+}
+.measurements-description {
+  margin: 20px;
+}
+/* .box-text-1,
+.box-text-2 {
+  margin: 5px 3px;
+  text-align: center;
+  line-height: 1.5em;
+} */
