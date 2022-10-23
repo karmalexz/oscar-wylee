@@ -19,8 +19,13 @@ const Navbar = () => {
       <button className="booking">Book an eye test</button>
       <img className="function-icon" src={Search} alt="search icon" />
       <img className="function-icon" src={User} alt="user icon" />
-      <img className="function-icon" src={ShoppingCart} alt="shopping cart" />
-      <span className="cart-lable">2</span>
+
+      <img
+        className="function-icon"
+        src={ShoppingCart}
+        alt="shopping cart"
+      ></img>
+      {/* <span className="cart-lable">2</span> */}
     </nav>
   );
 };

@@ -9,15 +9,16 @@
 .menu li {
   list-style: none;
   margin-left: 20px;
-  font-weight: 800;
+  font-weight: 600;
   overflow: hidden;
+  padding: 7px 0;
+  border: 3px solid transparent;
 }
 .menu li:hover {
   color: rgb(92, 135, 200);
-  text-decoration: underline;
-  text-underline-offset: 10px;
   text-decoration-color: rgb(44, 63, 167);
   cursor: pointer;
+  border-bottom: 3px solid rgb(44, 63, 167);
 }
 .navbar {
   display: flex;
@@ -37,20 +38,23 @@
   color: rgb(94, 117, 196);
   font-weight: 700;
   cursor: pointer;
+  background-color: white;
 }
 .function-icon {
   width: 2%;
+  height: 35%;
   padding: 0 5px;
 }
 .cart-lable {
-  height: 12px;
-  width: 12px;
-  font-size: 10px;
+  font-size: 0.6rem;
+  position: absolute;
+  /* top: -6px;
+  right: -5px; */
+  top: 15px;
+  right: 20px;
+  width: 15px;
+  height: 15px;
+  color: #fff;
   background-color: black;
-  color: white;
-
-  vertical-align: bottom;
-  margin-left: -10px;
-  margin-bottom: -25px;
   border-radius: 50%;
 }

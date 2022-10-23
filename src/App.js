@@ -1,8 +1,14 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import Product from "./Product";
 
 function App() {
-  return <Navbar />;
+  return (
+    <div>
+      <Navbar />
+      <Product />
+    </div>
+  );
 }
 
 export default App;
