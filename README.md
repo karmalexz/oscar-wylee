@@ -4,7 +4,7 @@
 
 - I used React and vanilla CSS to finish this test
 - Responsive desgin: Desktop view and Mobile view.
-- Hosted on Netlify:
+- Hosted on Heroku: https://oscar-wylee.herokuapp.com/
 
 ## Screenshots
 
