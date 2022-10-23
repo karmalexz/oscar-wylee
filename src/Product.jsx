@@ -3,6 +3,10 @@ import ProductImage from "./assets/product.jpg";
 import Zoom from "./assets/search-heart.svg";
 import "./Product.css";
 import Zip from "./assets/zip-logo.svg";
+import Amber from "./assets/colour1.png";
+import Pink from "./assets/colour2.png";
+import Mashmellow from "./assets/colour3.png";
+import Spearmint from "./assets/colour4.png";
 const Product = () => {
   return (
     <div className="product-main">
@@ -28,6 +32,14 @@ const Product = () => {
         <p className="color">
           <span className="color-bold">Color: </span>Tabby Tortoise
         </p>
+        <img src={Amber} alt="Amber color" className="colour-picking" />
+        <img src={Pink} alt="Pink color" className="colour-picking" />
+        <img
+          src={Mashmellow}
+          alt="Mashmellow color"
+          className="colour-picking"
+        />
+        <img src={Spearmint} alt="Spearmint color" className="colour-picking" />
         <div className="price-tag">
           <p className="price-from">From $199.00</p>
           <p className="zip-statement">
