@@ -115,4 +115,23 @@
     padding: 5% 10%;
     margin-left: auto;
   }
+  @media (max-width: 400px) {
+    .description-right {
+      padding: 5% 10%;
+      margin-left: auto;
+    }
+    .description-right .title {
+      margin-left: -20%;
+    }
+    .table {
+      margin-left: -13%;
+    }
+    .table .table-title {
+      padding: 0.4em;
+      align-items: center;
+    }
+    .text-block .heading {
+      top: -40px;
+    }
+  }
 }
