@@ -74,9 +74,45 @@
 .measurements-description {
   margin: 20px;
 }
-/* .box-text-1,
-.box-text-2 {
-  margin: 5px 3px;
-  text-align: center;
-  line-height: 1.5em;
-} */
+@media (max-width: 1087px) {
+  .text-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .description-left {
+    padding: 5% 15%;
+    margin-left: 10%;
+  }
+  .description-right {
+    padding: 5% 10%;
+    margin-left: 20%;
+  }
+  .table {
+    margin-left: -8%;
+  }
+  .table .table-title {
+    padding: 1em;
+    align-items: center;
+  }
+  .box-text {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .description-right {
+    padding: 5% 10%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 650px) {
+  .description-right {
+    padding: 5% 10%;
+    margin-left: auto;
+  }
+}
+@media (max-width: 500px) {
+  .description-right {
+    padding: 5% 10%;
+    margin-left: auto;
+  }
+}

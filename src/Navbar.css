@@ -1,17 +1,19 @@
 .logo {
-  width: 300px;
+  width: 180px;
   height: 24px;
-  /* padding-right: 50px; */
+  padding-right: 60px;
 }
 .menu {
   display: flex;
 }
+.mobile-navbar {
+  display: none;
+}
 .menu li {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: 600;
   overflow: hidden;
-  padding: 7px 0;
   border: 3px solid transparent;
 }
 .menu li:hover {
@@ -23,14 +25,14 @@
 .navbar {
   display: flex;
   width: 100%;
-  height: 85px;
+  height: 80px;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgb(188, 188, 188);
 }
 .booking {
   border-radius: 25px;
-  margin-left: 5em;
+  margin-left: 3em;
   margin-right: 3em;
   text-transform: uppercase;
   padding: 0.5em 1.8em;
@@ -54,4 +56,138 @@
   vertical-align: top;
   margin-left: -18px;
   margin-top: 18px;
+}
+/* @media (max-width: 1087px) {
+  .navbar .menu {
+    display: none;
+  }
+  .navbar .booking {
+    display: none;
+  }
+  .navbar {
+    background-color: rgb(0, 54, 160);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .function-icon-search,
+  .function-icon-user {
+    display: none;
+  }
+  .navbar .logo {
+    margin-top: 7em;
+    width: 60%;
+    height: 50%;
+    margin-left: -5em;
+  }
+  .mobile-title {
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    text-align: center;
+  }
+  .mobile-book {
+    display: flex;
+    background-color: #003cac;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-book span {
+    background-color: #fff;
+    color: #003cac;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: auto 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .function-icon-cart,
+  .cart-lable {
+    display: none;
+  }
+} */
+@media (max-width: 1087px) {
+  .navbar .menu,
+  .booking,
+  .logo {
+    display: none;
+  }
+  .function-icon-search,
+  .function-icon-user,
+  .function-icon-cart,
+  .cart-lable {
+    display: none;
+  }
+  .mobile-navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    height: 20px;
+    box-shadow: 0px 12px 10px #888888;
+  }
+  .mobile-booking {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-left: 35%;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 0.5em 4em;
+    border: 1px solid rgb(94, 117, 196);
+    color: rgb(94, 117, 196);
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+  }
+  .mobile-title-background {
+    background-color: rgb(44, 63, 167);
+    height: 40px;
+  }
+  .mobile-logo {
+    width: 60%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: -35px;
+    margin-bottom: -5%;
+  }
+  .burger-icon {
+    display: inline-block;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+  .mobile-cart {
+    width: 6%;
+    display: inline-block;
+    margin-left: 90%;
+  }
+  .mobile-cart-lable {
+    font-size: 0.6rem;
+    padding: 0 4px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    /* vertical-align: top; */
+    margin-left: -15px;
+    margin-top: auto;
+  }
+}
+@media (max-width: 600px) {
+  .mobile-booking {
+    margin-left: 30%;
+  }
+  @media (max-width: 500px) {
+    .mobile-booking {
+      margin-left: 27%;
+    }
+  }
 }

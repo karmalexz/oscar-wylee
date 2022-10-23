@@ -10,6 +10,11 @@ import Spearmint from "./assets/colour4.png";
 const Product = () => {
   return (
     <div className="product-main">
+      <div className="mobile-product-title">
+        <h3 className="mobile-product-name">MARCO</h3>
+        <h3>2 pairs from $199</h3>
+        <p>Discount auto-applied at checkout</p>
+      </div>
       <div className="product-left">
         <img className="product-image" src={ProductImage} alt="glasses image" />
         <p className="zoom">

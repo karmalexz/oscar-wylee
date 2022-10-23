@@ -19,7 +19,7 @@ const Description = () => {
           <p className="table-title">
             FRAME FIT <span>WIDE</span>
           </p>
-          <p className="table-title">
+          <p className="table-title table-measurements">
             MEASUREMENTS <span>56 - 19 - 148</span>
           </p>
         </div>
