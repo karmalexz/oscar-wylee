@@ -57,62 +57,7 @@
   margin-left: -18px;
   margin-top: 18px;
 }
-/* @media (max-width: 1087px) {
-  .navbar .menu {
-    display: none;
-  }
-  .navbar .booking {
-    display: none;
-  }
-  .navbar {
-    background-color: rgb(0, 54, 160);
-    height: 60px;
-    display: flex;
-    justify-content: center;
-  }
 
-  .function-icon-search,
-  .function-icon-user {
-    display: none;
-  }
-  .navbar .logo {
-    margin-top: 7em;
-    width: 60%;
-    height: 50%;
-    margin-left: -5em;
-  }
-  .mobile-title {
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    padding: 100px 0;
-    text-align: center;
-  }
-  .mobile-book {
-    display: flex;
-    background-color: #003cac;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-  }
-  .mobile-book span {
-    background-color: #fff;
-    color: #003cac;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin: auto 0;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-  }
-  .function-icon-cart,
-  .cart-lable {
-    display: none;
-  }
-} */
 @media (max-width: 1087px) {
   .navbar .menu,
   .booking,
