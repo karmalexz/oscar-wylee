@@ -11,7 +11,7 @@
 ![image info](./src/assets/screenshot1.png)
 ![image info](./src/assets/screenshot2.png)
 
-## TO-DO list
+## Wish list
 
 - There can be a tablet view.
 - Though the test does not require me to make it dynamic, but I think it is cool to finish this simple webpage with some javascript as well-especially for the hamburger icon.
